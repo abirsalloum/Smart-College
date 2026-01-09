@@ -1,0 +1,9 @@
+
+{
+  "name": "SMart College chatbot",
+  "description": "A powerful, multilingual notebook assistant that answers questions based on your documents in English and Arabic, featuring a sleek, modern UI inspired by NotebookLLM.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
