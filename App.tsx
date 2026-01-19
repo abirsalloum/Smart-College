@@ -293,7 +293,7 @@ const App: React.FC = () => {
       <main className="flex-1 flex flex-col min-w-0 bg-transparent relative">
         <header className={`h-20 flex items-center justify-between px-8 border-b transition-all z-10 ${theme === 'dark' ? 'bg-slate-900/80 border-slate-800' : 'bg-white/80 border-slate-100'} backdrop-blur-md`}>
           <div className="flex items-center gap-4">
-            <img src="images/logo.png" alt="Smart College Logo" className={`h-12 md:h-14 object-contain ${theme === 'dark' ? 'brightness-125 contrast-125' : ''}`} />
+            <img src="/images/logo.png" alt="Smart College Logo" className={`h-12 md:h-14 object-contain ${theme === 'dark' ? 'brightness-125 contrast-125' : ''}`} />
             <div className={`h-8 w-px hidden md:block ${theme === 'dark' ? 'bg-slate-700' : 'bg-slate-200'}`}></div>
             <h1 className={`text-xl font-extrabold tracking-tight hidden md:block ${theme === 'dark' ? 'text-sc-orange' : 'text-sc-navy'}`}>Smart College Bot</h1>
           </div>
