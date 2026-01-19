@@ -1,0 +1,21 @@
+{
+  "project": "Smart College Chatbot",
+  "version": "2.0",
+  "root": "/sources/",
+  "folders": [
+    { "id": "general-dir", "name": "General", "path": "/sources/general/" },
+    { "id": "confidential-dir", "name": "Confidential", "path": "/sources/confidential/" }
+  ],
+  "default_documents": [
+    {
+      "name": "college_info.txt",
+      "folderId": "general-dir",
+      "path": "sources/general/college_info.txt"
+    },
+    {
+      "name": "financial_report_2025.txt",
+      "folderId": "confidential-dir",
+      "path": "sources/confidential/financial_report_2025.txt"
+    }
+  ]
+}
