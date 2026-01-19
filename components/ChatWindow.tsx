@@ -47,7 +47,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ messages, onSendMessage, isLoad
               {/* Bot Avatar */}
               {msg.role === 'model' && (
                 <div className={`hidden sm:flex w-10 h-10 rounded-full flex-shrink-0 items-center justify-center text-white shadow-md transition-colors ${theme === 'dark' ? 'bg-sc-orange' : 'bg-sc-navy'}`}>
-                   <img src="images/logo.png" alt="SC" className="w-6 h-6 rounded-full" />
+                   <img src="/images/logo.png" alt="SC" className="w-6 h-6 rounded-full" />
                 </div>
               )}
               
